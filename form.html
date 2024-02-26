@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="form_container">
+        <img src="images/cinesa-logo1.jpg" alt="" class="logo">
+        <h1>Datos Película</h1>
+        <form action="">
+            <div class="form_content"> 
+                <div>
+                    <label>Título:</label>
+                    <input type="text" placeholder="Título..." name="titulo" required>
+                    <br>
+                    <br>
+                    <label>Director:</label>
+                    <input type="text" placeholder="Director..." name="director">
+                    <br>
+                    <br>
+                    <label>País:</label>
+                    <input type="text" placeholder="Pais..." name="pais">
+                    <br>
+                    <br>
+                    <label>Género:</label>
+                    <input type="text" name=genero"" id="" placeholder="Género...">
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <label>Fecha de Estreno:</label>
+                    <input type="date" name="fecha">
+                    <br>
+                    <br>
+                    <label>Duración:</label>
+                    <input type="time" name="duracion">
+                    <br>
+                    <br>
+                    <label>Valoración:</label>
+                    <input type="number" min="0" max="10" step="1">
+                    <br>
+                    <br>
+                    <label>Sinopsis:</label><br>
+                    <textarea name="sinopsis" cols="30" rows="5" placeholder="Sinopsis..."></textarea>
+                </div>
+            </div>
+            <div class="form_btn">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
